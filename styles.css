@@ -27,3 +27,14 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url(20231020_082236.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
