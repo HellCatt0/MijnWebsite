@@ -1,48 +1,27 @@
-/* Algemene stijlen */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hobbies.html">Mijn Hobbies</a></li>
+                <li><a href="downloads/index.html">Bestanden</a></li>
+                <li><a href="compressietechnieken.html">Compressietechnieken</a></li>
+                <li><a href="binairstelsel.html">Binair Stelsel</a></li>
+            </ul>
+        </nav>
+    </header>
 
-/* Header en navigatiebalk */
-header {
-  background-color: #333;
-}
-
-nav ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  flex: 1;
-}
-
-nav ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  background-color: #111;
-}
-
-/* Sectie compressietechnieken */
-#compressietechnieken {
-  padding: 20px;
-}
-
-#compressietechnieken h2 {
-  font-size: 24px;
-}
-
-.bio p {
-  font-size: 16px;
-  line-height: 1.5;
-}
+    <section id="homepage">
+        <h1>Welkom op mijn website</h1>
+        <p>Xander Vervat</p>
+    </section>
+</body>
+</html>
