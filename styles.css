@@ -1,40 +1,48 @@
+/* Algemene stijlen */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header en navigatiebalk */
+header {
+  background-color: #333;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+  flex: 1;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #007bff;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+  background-color: #111;
 }
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: url(20231020_082236.jpg) no-repeat center center fixed;
-    background-size: cover;
+
+/* Sectie compressietechnieken */
+#compressietechnieken {
+  padding: 20px;
+}
+
+#compressietechnieken h2 {
+  font-size: 24px;
+}
+
+.bio p {
+  font-size: 16px;
+  line-height: 1.5;
 }
