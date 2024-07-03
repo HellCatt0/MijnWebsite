@@ -3,6 +3,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url('under-the-burning-moon-3840x2160_665989-mm-90.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 /* Header en navigatiebalk */
@@ -45,8 +48,4 @@ section h1, section h2 {
 .bio p, section p {
   font-size: 16px;
   line-height: 1.5;
-}
-body { background-image: url('under-the-burning-moon-3840x2160_665989-mm-90.jpg');
-       background-position: center;
-       background-size: cover;
 }
